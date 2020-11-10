@@ -29,16 +29,16 @@ This is where the hero escapes but only after guessing the right escape pod.
 
 
 ### Key Concepts
-|Alien|Player|Ship|Maze|Room|Scene|Gothon|Escape Pod|Planet|Map|Engine|Death|Central Corridor|Laser Weapon Armory|The Bridge|
+| `Alien` | `Player` | `Ship` | `Maze` | `Room` | `Scene` | `Gothon` | `Escape Pod` | `Planet` | `Map` | `Engine` | `Death` | `Central Corridor` | `Laser Weapon Armory` | `The Bridge` |
 
 ### Class Hierarchy
 * Map
-	– next_scene
-	– opening_scene
+	_`next_scene`_
+	_`opening_scene`_
 * Engine
-	– play
+	_`play`_
 * Scene
-	– enter
+    _`enter`_
 * Death
 * Central Corridor
 * Laser Weapon Armory
